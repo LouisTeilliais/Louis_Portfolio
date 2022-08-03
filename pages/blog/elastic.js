@@ -1,4 +1,5 @@
 import styles from '../../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Elastic() {
   return (
@@ -30,7 +31,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/stack.png"></img>
+        <Image width={350} height={100} src="/Elastic/stack.png"></Image>
       </div>
       <div className={styles.article}>
         <p>
@@ -40,7 +41,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/pattern.png"></img>
+        <Image width={800} height={500} src="/Elastic/pattern.png"></Image>
         <br />
       </div>
       <div className={styles.article}>

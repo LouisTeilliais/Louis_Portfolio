@@ -1,9 +1,9 @@
 import styles from '../../styles/Home.module.css'
-
+import Link from 'next/link'
 export default function Gravitee() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.main}>L'APIM GRAVITEE</h1>
+      <h1 className={styles.main}>L&apos;APIM GRAVITEE</h1>
       <h1 className={styles.titleArticle}>Qu’est-ce que Gravitee ?</h1>
       <h2 className={styles.titleArticle}>Présentation</h2>
       <div className={styles.article}>
@@ -28,7 +28,7 @@ export default function Gravitee() {
         </div>
       </div>
       <h2 className={styles.titleArticle}>
-        Comment mettre en place l'APIM de Gravitee
+        Comment mettre en place l&apos;APIM de Gravitee
       </h2>
       <h2 className={styles.titleArticle}>Les prérequis</h2>
       <div className={styles.article}>
@@ -172,7 +172,11 @@ export default function Gravitee() {
           </div>
           <p>
             La console sera donc lancer sur l’adresse :{' '}
-            <a target="_blank" href="http://localhost:8000">
+            <a
+              target="_blank"
+              href="http://localhost:8000"
+              rel="noopener noreferrer"
+            >
               http://localhost:8000
             </a>
             . Pour se connecter en tant qu’admin. Les identifiants sont

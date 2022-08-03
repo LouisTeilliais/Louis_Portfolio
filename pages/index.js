@@ -51,9 +51,10 @@ export default function Home() {
               Agé de 20 ans. Je suis étudiant à Nantes Ynov Campus en B2 dans la
               filière informatique. Je rentrerai à la rentrée prochaine en 3ème
               et dernière année de mon bachelor dans la spécialité
-              "Développement". J'enchainerai surêment une fois mon bachelor
-              validé, sur un mastère. J'ai réalisé mon stage de fin de deuxième
-              année, dans l'entreprise Next Decision basé à Nantes.
+              &quot;Développement&quot;. J&apos;enchainerai surêment une fois
+              mon bachelor validé, sur un mastère. J&apos;ai réalisé mon stage
+              de fin de deuxième année, dans l&apos;entreprise Next Decision
+              basé à Nantes.
             </p>
 
             <div className={styles.entrepriseButton}>
