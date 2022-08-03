@@ -8,13 +8,14 @@ export default function Experience() {
       <div className={styles.article}>
         <p>
           Ce qui a fait que je me suis dirigé vers cette entreprise et non une
-          autre, c’est tout d’abord le fait que c’est la première avec qui j'ai
-          pu avoir un réel contact. Mon CV est arrivé entre les mains de Next
-          Decision grâce à une connaissance qui a pu leur transmettre. Même si
-          cela ne fait pas tout, cela a beaucoup faciliter les choses. <br />
-          Ce que me proposait Next Decision à mon arrivé, m'a aussi beaucoup
-          plu. Le fait de découvrir des nouvelles technologies tels que ".Net"
-          pour ce qui est du web.
+          autre, c’est tout d’abord le fait que c’est la première avec qui
+          j&apos;ai pu avoir un réel contact. Mon CV est arrivé entre les mains
+          de Next Decision grâce à une connaissance qui a pu leur transmettre.
+          Même si cela ne fait pas tout, cela a beaucoup faciliter les choses.{' '}
+          <br />
+          Ce que me proposait Next Decision à mon arrivé, m&apos;a aussi
+          beaucoup plu. Le fait de découvrir des nouvelles technologies tels que
+          &quot;.Net&quot; pour ce qui est du web.
           <br />
           Ainsi, je me retrouve dans le pôle Business Apps, à développer des
           solutions WEB pour les clients de Next Decision. L’objectif global est

@@ -41,9 +41,9 @@ export default function Gravitee() {
           Tout d’abord, nous allons commencer par installer Java. L’APIM
           Gravitee requiert au moins la version 11 de JDK. On va donc prendre la
           dernière version en date disponible, soit la 18.0.1.1 sur ce{' '}
-          <a target="_blank" href="https://jdk.java.net/archive/">
-            lien
-          </a>
+          <Link href="https://jdk.java.net/archive/">
+            <a target="_blank">lien</a>
+          </Link>
           . Une fois JDK téléchargé, il faudra ajouter, une variable dans les
           variables d’environnement de votre PC. Comme ceci :
           <br />
@@ -63,12 +63,9 @@ export default function Gravitee() {
           Dans un second temps, il sera nécessaire d’avoir mongoDB car c’est la
           base de données utilisé par Gravitee. Pour l’installer, il faudra
           suivre ce{' '}
-          <a
-            target="_blank"
-            href="https://www.mongodb.com/try/download/enterprise"
-          >
-            lien
-          </a>{' '}
+          <Link href="https://www.mongodb.com/try/download/enterprise">
+            <a target="_blank">lien</a>
+          </Link>{' '}
           . Et de prendre la version actuelle, ici la 5.0.9.
         </p>
       </div>
@@ -78,12 +75,9 @@ export default function Gravitee() {
           Pour finir dans les prérequis, il sera obligatoire aussi d’avoir
           elasticsearch et de télécharger une version compatible à l’APIM
           Gravitee c’est-à-dire la 7.17.4.{' '}
-          <a
-            target="_blank"
-            href="https://www.elastic.co/fr/downloads/past-releases/elasticsearch-7-17-4"
-          >
-            Ici
-          </a>
+          <Link href="https://www.elastic.co/fr/downloads/past-releases/elasticsearch-7-17-4">
+            <a target="_blank">Ici</a>
+          </Link>
           .
         </p>
       </div>
@@ -97,12 +91,9 @@ export default function Gravitee() {
         <p>
           Pour télécharger, le fichier zip contenant tous les services de l’APIM
           (Gateway, Console, API et Portail). Il faudra se rendre sur ce{' '}
-          <a
-            target="_blank"
-            href="https://download.gravitee.io/graviteeio-apim/distributions/graviteeio-full-3.17.3.zip"
-          >
-            lien
-          </a>
+          <Link href="https://download.gravitee.io/graviteeio-apim/distributions/graviteeio-full-3.17.3.zip">
+            <a target="_blank">lien</a>
+          </Link>
           . Une fois ceci fait, il faudra dézipper le fichier que l’on vient de
           prendre dans celui que l’on à créer ultérieurement. Il faudra
           également y glisser le fichier dézipper d’Elastic.
@@ -150,12 +141,11 @@ export default function Gravitee() {
           <br />
           Pour vérifier que tout fonctionne bien on va se rendre sur l’adresse :{' '}
           <br />
-          <a
-            target="_blank"
-            href="http://localhost:8083/management/organizations/DEFAULT/environments/DEFAULT/apis"
-          >
-            http://localhost:8083/management/organizations/DEFAULT/environments/DEFAULT/apis
-          </a>
+          <Link href="http://localhost:8083/management/organizations/DEFAULT/environments/DEFAULT/apis">
+            <a target="_blank">
+              http://localhost:8083/management/organizations/DEFAULT/environments/DEFAULT/apis
+            </a>
+          </Link>
           <br />
           Celle-ci devrait normalement renvoyer : [ ].
         </p>
@@ -172,13 +162,9 @@ export default function Gravitee() {
           </div>
           <p>
             La console sera donc lancer sur l’adresse :{' '}
-            <a
-              target="_blank"
-              href="http://localhost:8000"
-              rel="noopener noreferrer"
-            >
-              http://localhost:8000
-            </a>
+            <Link href="http://localhost:8000">
+              <a target="_blank">http://localhost:8000</a>
+            </Link>
             . Pour se connecter en tant qu’admin. Les identifiants sont
             admin/admin.
           </p>
@@ -196,9 +182,9 @@ export default function Gravitee() {
           </div>
           <p>
             Pour vérifier si tout fonctionne bien on se rendra sur l’adresse :{' '}
-            <a target="_blank" href="http://localhost:8080">
-              http://localhost:8080
-            </a>{' '}
+            <Link href="http://localhost:8080">
+              <a target="_blank">http://localhost:8080</a>
+            </Link>{' '}
             et on aura accès au portail une fois que l’on aura rentrés nos
             identifiants (idem que pour la console). Une fois que toute ces
             étapes auront été respectées, l’APIM est installé. <br />

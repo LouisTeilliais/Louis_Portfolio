@@ -22,9 +22,9 @@ function Blog() {
                     Les API SOAP
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Qu'est ce que sont les API SOAP, leurs fonctionnements et
-                    leurs utilités et les différences avec les API REST. <br />{' '}
-                    Cliquez ici pour voir plus.
+                    Qu&apos;est ce que sont les API SOAP, leurs fonctionnements
+                    et leurs utilités et les différences avec les API REST.{' '}
+                    <br /> Cliquez ici pour voir plus.
                   </Typography>
                 </CardContent>
               </Card>
@@ -40,8 +40,8 @@ function Blog() {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     Découvrez ici le principe de Kibana pour pouvoir gérer des
-                    logs. De la création d'index à celle d'un Dashboard de
-                    visualisation.
+                    logs. De la création d&apos;index à celle d&apos;un
+                    Dashboard de visualisation.
                     <br /> Cliquez ici pour voir plus.
                   </Typography>
                 </CardContent>
@@ -59,7 +59,7 @@ function Blog() {
                     Mettre en place un logger avec .NET Core
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    L'utilisation du framework .Net Core pour ajouter des
+                    L&apos;utilisation du framework .Net Core pour ajouter des
                     loggers dans la console. <br /> Cliquez ici pour voir plus.
                   </Typography>
                 </CardContent>
@@ -79,9 +79,9 @@ function Blog() {
                     Les principaux frameworks JS
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Quels framework choisir au lancement d'un projet et quels
-                    sont les avantages et inconvénients de chacun (React, Vue et
-                    Angular).
+                    Quels framework choisir au lancement d&apos;un projet et
+                    quels sont les avantages et inconvénients de chacun (React,
+                    Vue et Angular).
                     <br /> Cliquez ici pour voir plus.
                   </Typography>
                 </CardContent>
@@ -99,8 +99,8 @@ function Blog() {
                     Gravitee
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Découvrez l'API management Gravitee, ainsi que
-                    l'installation et la mise en place de son APIM
+                    Découvrez l&apos;API management Gravitee, ainsi que
+                    l&apos;installation et la mise en place de son APIM
                     <br /> Cliquez ici pour voir plus
                   </Typography>
                 </CardContent>

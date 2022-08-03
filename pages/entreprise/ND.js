@@ -1,5 +1,6 @@
 import styles from '../../styles/Home.module.css'
 import { Card, Content } from 'react-bulma-components'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -38,12 +39,13 @@ export default function Home() {
           parti des données d’une entreprise. L’objectif de l’informatique
           décisionnelle est de permettre un pilotage d’une entreprise, en
           fournissant notamment des tableaux de bord et des rapports sur
-          lesquels les décideurs peuvent s'appuyer pour la prise de décisions.
-          Pour dire simplement ce que fait globalement l’entreprise : sa mission
-          consiste à analyser des données générées dans des Big Data (Google,
-          Facebook, etc…) par chacun afin d’en tirer des conclusions marketing
-          pour ses clients. De ce fait, ses clients sont des entreprises de
-          toutes tailles se situant un peu partout sur le territoire français.
+          lesquels les décideurs peuvent s&apos;appuyer pour la prise de
+          décisions. Pour dire simplement ce que fait globalement l’entreprise :
+          sa mission consiste à analyser des données générées dans des Big Data
+          (Google, Facebook, etc…) par chacun afin d’en tirer des conclusions
+          marketing pour ses clients. De ce fait, ses clients sont des
+          entreprises de toutes tailles se situant un peu partout sur le
+          territoire français.
           <br />
           <br />
           Pour illustrer le poids de cette entreprise voici quelque références
@@ -60,9 +62,9 @@ export default function Home() {
         <div>
           <Card.Content>
             <Content className={styles.experience}>
-              <a className={styles.experience} href="/entreprise/experience">
-                Expérience de mon stage
-              </a>
+              <Link href="/entreprise/experience">
+                <a className={styles.experience}>Expérience de mon stage</a>
+              </Link>
             </Content>
           </Card.Content>
         </div>

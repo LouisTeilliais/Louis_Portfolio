@@ -5,7 +5,7 @@ export default function Logger() {
     <div className={styles.container}>
       <h1 className={styles.main}>METTRE EN PLACE UN LOGGER AVEC .NET CORE </h1>
       <h1 className={styles.titleArticle}>.NET CORE </h1>
-      <h2 className={styles.titleArticle}>Qu'est-ce que .Net Core </h2>
+      <h2 className={styles.titleArticle}>Qu&apos;est-ce que .Net Core </h2>
       <div className={styles.article}>
         <p>
           .Net Core est un framework de développement multiplateforme, développé
@@ -21,7 +21,9 @@ export default function Logger() {
           <img src="../../APIM.png"></img>
         </div> */}
       </div>
-      <h2 className={styles.titleArticle}>Qu'est-ce qu'un logger ? </h2>
+      <h2 className={styles.titleArticle}>
+        Qu&apos;est-ce qu&apos;un logger ?{' '}
+      </h2>
       <div className={styles.article}>
         Le but d’un « logger » est de prévenir le développeur de l’état de son
         application et des potentiels problèmes qu’il peut rencontrer. Les

@@ -37,10 +37,11 @@ export default function SoapAPI() {
       <div className={styles.article}>
         <p>
           Le WSDL (Web Services Description Language) est un fichier qui
-          spécifie ce que doit contenir un message de requête et l'apparence du
-          message de réponse, il décrit la fonction d'un service web ainsi que
-          ses limites. Le WSDL est basé sur le XML ou le schéma XML (XSD). Cela
-          signifie que le WSDL utilise des éléments XML.
+          spécifie ce que doit contenir un message de requête et
+          l&apos;apparence du message de réponse, il décrit la fonction
+          d&apos;un service web ainsi que ses limites. Le WSDL est basé sur le
+          XML ou le schéma XML (XSD). Cela signifie que le WSDL utilise des
+          éléments XML.
         </p>
       </div>
       <h2 className={styles.titleArticle}>SOAP VS REST</h2>
