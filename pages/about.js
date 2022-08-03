@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { Card, Content } from 'react-bulma-components'
+import Link from 'next/link'
 
 function About() {
   return (

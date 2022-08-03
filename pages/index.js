@@ -57,12 +57,10 @@ export default function Home() {
             </p>
 
             <div className={styles.entrepriseButton}>
-              <a href="/entreprise/ND">
-                Next decision : Mon entreprise
-                <div>
-                  <img width="350" src="../../ND/ND_logo.png"></img>
-                </div>
-              </a>
+              <Link href="/entreprise/ND">Next decision : Mon entreprise</Link>
+              <div>
+                <img width="350" src="../../ND/ND_logo.png"></img>
+              </div>
             </div>
           </Content>
         </Card.Content>
