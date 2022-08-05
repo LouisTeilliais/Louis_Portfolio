@@ -67,7 +67,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="/Elastic/vizualize.png"></img>
+        <img src="../../Elastic/vizualize.PNG"></img>
         <br />
       </div>
       <div className={styles.article}>
@@ -173,7 +173,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img width="700" src="../../Elastic/add_library.png"></img>
+        <img width="700" src="../../Elastic/add_library.PNG"></img>
         <br />
       </div>
       <div className={styles.article}>
