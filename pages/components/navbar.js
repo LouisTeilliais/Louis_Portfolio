@@ -5,7 +5,7 @@ import ContactPageIcon from '@mui/icons-material/ContactPage'
 import ArticleIcon from '@mui/icons-material/Article'
 import InfoIcon from '@mui/icons-material/Info'
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <Link href="/">
