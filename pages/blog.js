@@ -16,7 +16,7 @@ function Blog() {
           <Columns.Column>
             <Link href="/blog/soapApi">
               <Card sx={{ maxWidth: 345, maxHeight: 500, marginBottom: 10 }}>
-                <CardMedia component="img" height="auto" image="/SoapAPI.png" />
+                <CardMedia component="img" height="auto" image="/SoapAPi.png" />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     Les API SOAP
@@ -33,7 +33,7 @@ function Blog() {
           <Columns.Column>
             <Link href="/blog/elastic">
               <Card sx={{ maxWidth: 345, maxHeight: 500 }}>
-                <CardMedia component="img" height="275" image="/elastci.png" />
+                <CardMedia component="img" height="275" image="/elastic.png" />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     Elastic
