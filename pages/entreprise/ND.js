@@ -21,7 +21,7 @@ export default function Home() {
           Montpellier, Nantes, Nice, Paris, Toulouse et Rennes.{' '}
         </p>
         <div className={styles.image}>
-          <img width="400" src="../../ND/agences.png"></img>
+          <img width="400" src="/ND/agences.png"></img>
         </div>
         <p>
           Next Decision est une entreprise en constante évolution avec une
@@ -29,7 +29,7 @@ export default function Home() {
           chiffre d’affaire ainsi que ces quelques données clés : <br />
         </p>
         <div className={styles.image}>
-          <img width="800" src="../../ND/CA.png"></img>
+          <img width="800" src="/ND/CA.png"></img>
         </div>
         <p>
           Next Decision est un cabinet de conseil en Buisness Inteligence, Big
@@ -52,11 +52,11 @@ export default function Home() {
           clients :
         </p>
         <div className={styles.image}>
-          <img width="800" src="../../ND/clients.png"></img>
+          <img width="800" src="/ND/clients.png"></img>
         </div>
         <p>Ainsi que leurs partenaires :</p>
         <div className={styles.image}>
-          <img width="800" src="../../ND/partenaires.png"></img>
+          <img width="800" src="/ND/partenaires.png"></img>
         </div>
         <br />
         <div>

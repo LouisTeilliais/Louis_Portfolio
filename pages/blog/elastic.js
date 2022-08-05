@@ -31,7 +31,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <Image width={350} height={100} src="/Elastic/stack.png"></Image>
+        <img src="/Elastic/stack.png"></img>
       </div>
       <div className={styles.article}>
         <p>
@@ -41,7 +41,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <Image width={800} height={500} src="/Elastic/pattern.png"></Image>
+        <img src="/Elastic/pattern.png"></img>
         <br />
       </div>
       <div className={styles.article}>
@@ -53,7 +53,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/create_index.png"></img>
+        <img src="/Elastic/create_index.png"></img>
         <br />
       </div>
       <h1 className={styles.titleArticle}>Visualiser notre index</h1>
@@ -67,7 +67,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/vizualize.png"></img>
+        <img src="/Elastic/vizualize.png"></img>
         <br />
       </div>
       <div className={styles.article}>
@@ -82,7 +82,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/new_visualize.png"></img>
+        <img src="/Elastic/new_visualize.png"></img>
         <br />
       </div>
       <p className={styles.article}>
@@ -91,7 +91,7 @@ export default function Elastic() {
       </p>
       <div className={styles.image}>
         <br />
-        <img src="../../Elastic/metric.png"></img>
+        <img src="/Elastic/metric.png"></img>
         <br />
       </div>
       <div className={styles.article}>
