@@ -31,6 +31,7 @@ function Contact() {
           <Content>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/louis-teilliais/"
             >
               <a>
