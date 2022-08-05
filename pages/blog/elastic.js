@@ -141,7 +141,7 @@ export default function Elastic() {
       </div>
       <div className={styles.image}>
         <br />
-        <img width="700" src="../../Elastic/example.png"></img>
+        <img width="700" src="../../Elastic/example.PNG"></img>
         <br />
       </div>
       <h1 className={styles.titleArticle}>Création du Dashboard</h1>
