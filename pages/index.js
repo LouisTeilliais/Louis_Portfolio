@@ -8,12 +8,12 @@ import ContactsIcon from '@mui/icons-material/Contacts'
 export default function Home() {
   return (
     <div className={styles.cardPresentation}>
-      <h1 className={styles.main}>Bienvenue sur mon site personel</h1>
+      <h1 className={styles.main}>Qui-suis je ?</h1>
       <Card
         className={styles.presentation}
         style={{ width: '55rem', height: '30rem' }}
       >
-        <h2>Qui-suis je ?</h2>
+        <h2>En résumé</h2>
         <Card.Content>
           <Content className={styles.presentationImage}>
             <div>

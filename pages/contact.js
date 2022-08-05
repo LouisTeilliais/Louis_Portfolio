@@ -3,7 +3,6 @@ import { Heading, Card, Content } from 'react-bulma-components'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import MailIcon from '@mui/icons-material/Mail'
 import Footer from './components/footer'
-import Link from 'next/link'
 
 function Contact() {
   return (
@@ -16,10 +15,10 @@ function Contact() {
         <h2>Par mail</h2>
         <Card.Content>
           <Content>
-            {/* <MailIcon /> */}
-            <Link href="mailto:louis.teilliais@gmail.com">
+            <a href="mailto:louis.teilliais@gmail.com">
+              <MailIcon />
               <a>louis.teilliais@gmail.com</a>
-            </Link>
+            </a>
           </Content>
         </Card.Content>
       </Card>
@@ -30,15 +29,15 @@ function Contact() {
         <Card.Content>
           <h2>Via LinkedIn</h2>
           <Content>
-            <Link
+            <a
               target="_blank"
               href="https://www.linkedin.com/in/louis-teilliais/"
             >
               <a>
-                {/* <LinkedInIcon /> */}
+                <LinkedInIcon />
                 linkedin.com
               </a>
-            </Link>
+            </a>
           </Content>
         </Card.Content>
       </Card>
